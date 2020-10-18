@@ -9,7 +9,7 @@ function test(){
 
     VoiceRSS.speech({
         key: 'e100ba03724d49cda71000fc7ddaf092',
-        src: 'Bad Hailey, Returm that to your sister!',
+        src: 'Bad Hailey, Please dont fight with your sister!',
         hl: 'en-us',
         v: 'Linda',
         r: 0, 
