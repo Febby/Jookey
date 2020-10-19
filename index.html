@@ -6,7 +6,6 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <link rel="stylesheet" href="scss/style.css">
     <title>Jookey - The Joke Teller</title>
@@ -16,9 +15,10 @@
         <h2>Jookey</h2>
         <p>Click button below and Jookey will tell you a joke</p>
         <button id="button">Tell Me A Joke</button>
-        <audio id="jookey-voice" controls></audio>
+        <audio id="jookey-voice" controls hidden></audio>
     </div>
 <!-- Script -->
+<script src="js/voice.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>
